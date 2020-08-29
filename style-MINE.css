@@ -1,0 +1,51 @@
+html {
+    background: url(https://i2.wp.com/hjck.com/wp-content/uploads/2019/08/Gustavo-Cerati-AFP.jpg?fit=1920%2C1080&ssl=1);
+    background-size: cover;
+    font-size: 10px;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+body,html {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.teclas {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.tecla {
+    border: .4rem black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #d50000;
+    box-shadow: 0 0 1rem #650000;
+}
+
+.sound {
+    color: #d90404;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
